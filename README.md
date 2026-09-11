@@ -29,6 +29,7 @@
 | Project | What it is |
 |---|---|
 | [RetailExecutiveDashboard](https://github.com/tnishant082-dev/RetailExecutiveDashboard) | Power BI executive dashboard on Online Retail II — revenue, orders, customers, AOV, product & country rankings (star schema + DAX) |
+| [supply-chain-control-tower](https://github.com/tnishant082-dev/supply-chain-control-tower) | Power BI Supply Chain Control Tower — warehouses, vendors, shipments, inventory, procurement, RLS personas |
 
 ---
 
