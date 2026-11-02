@@ -1,55 +1,40 @@
-# Hi, I'm Nishant Tyagi 👋
+# Nishant Tyagi
 
-<p align="center">
-  <img src="assets/nishant-tyagi.png" alt="Nishant Tyagi" width="280" />
-</p>
+Python backend developer. I build APIs and services with FastAPI, PostgreSQL and Docker, and I also work on GenAI (RAG, LLM evaluation) and data analytics.
 
-**AI Engineer** building agentic systems, LLM evaluation frameworks, and runtime trust infrastructure.  
-📍 New Delhi, India
-
-### Accounts
-
-| | |
-|---|---|
-| **This portfolio account** | [`tnishant082-dev`](https://github.com/tnishant082-dev) — public repos & README (use this for hiring links) |
-| **Primary GitHub** | [`nishanttyagi28`](https://github.com/nishanttyagi28) — main history (VisionEval, AgentEval, TruthGraph, …). Public profile visibility is currently limited on GitHub’s side; this account is the temporary public mirror while that is fixed. |
-
----
+My main GitHub account is [nishanttyagi28](https://github.com/nishanttyagi28), where the projects below live.
 
 ## What I build
 
-- **LLM / agent evaluation** — traps, gates, evidence, CI for agent quality  
-- **Claim verification / trust** — TruthGraph-style evidence gates  
-- **Data & BI** — executive dashboards (Power BI), analytics notebooks  
+- REST APIs and backend services in Python, mostly FastAPI on PostgreSQL
+- Database work: schema design, SQLAlchemy models, Alembic migrations, backup and restore checks
+- Services that are tested and shipped properly: pytest, Docker, GitHub Actions CI
+- GenAI backends: RAG pipelines and LLM/agent evaluation
+- Data analytics: SQL, dbt and Power BI on public datasets
 
----
+## Featured backend projects
 
-## Featured project (this account)
+| Project | What it does | Tests |
+|---|---|---|
+| [pgrestoredrill](https://github.com/nishanttyagi28/pgrestoredrill) | FastAPI service that restores Postgres backups into throwaway databases, runs assertions against them and alerts when RPO is breached. Prometheus metrics, Docker and Kubernetes deployment. | 208 tests, 95% coverage |
+| [Aravali AP Desk](https://github.com/nishanttyagi28/aravali-ap-desk) | Accounts-payable backend on FastAPI and PostgreSQL. | 170 tests |
+| [KarmaSakshi Protocol](https://github.com/nishanttyagi28/karmasakshi-protocol) | Signed, auditable approvals for actions taken by AI agents. | 1,079 tests |
+| [approve-exact](https://github.com/nishanttyagi28/approve-exact) | Human approvals bound to a hash of the exact action, so nothing else can run on that approval. | 81 tests |
 
-| Project | What it is |
-|---|---|
-| [RetailExecutiveDashboard](https://github.com/tnishant082-dev/RetailExecutiveDashboard) | Power BI executive dashboard on Online Retail II — revenue, orders, customers, AOV, product & country rankings (star schema + DAX) |
-| [supply-chain-control-tower](https://github.com/tnishant082-dev/supply-chain-control-tower) | Power BI Supply Chain Control Tower — warehouses, vendors, shipments, inventory, procurement, RLS personas |
+## GenAI and data work
 
----
+- [AgentEval](https://github.com/nishanttyagi28/agenteval): toolkit for evaluating LLM apps and agents, published on PyPI as [`nishanttyagi-agenteval`](https://pypi.org/project/nishanttyagi-agenteval/)
+- [Trade war analysis](https://github.com/nishanttyagi28/tariffs-oil-american-wallet): Python ingestion, dbt models and SQL analyses on public trade and price data
 
-## Primary account projects (nishanttyagi28)
+## Stack
 
-When public visibility is restored, start here:
+- **Backend:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Redis
+- **Infra and testing:** Docker, Kubernetes, pytest, GitHub Actions
+- **GenAI:** RAG, LLM evaluation
+- **Data:** SQL, dbt, Power BI
 
-- [VisionEval](https://github.com/nishanttyagi28/VisionEval) — vision / agent evaluation  
-- [agenteval](https://github.com/nishanttyagi28/agenteval) — AgentEval  
-- [truthgraph](https://github.com/nishanttyagi28/truthgraph) — claim verification / evidence gate  
-- [karmasakshi-protocol](https://github.com/nishanttyagi28/karmasakshi-protocol)  
-- [promptgate](https://github.com/nishanttyagi28/promptgate)  
-- [agentic-data-analyst](https://github.com/nishanttyagi28/agentic-data-analyst)  
+## Contact
 
----
+I'm open to Python Backend, Junior Backend, FastAPI and AI Backend roles.
 
-## Links
-
-- GitHub (public portfolio): https://github.com/tnishant082-dev  
-- GitHub (primary): https://github.com/nishanttyagi28  
-- LinkedIn: https://www.linkedin.com/in/nishant-tyagi-7aa458356  
-
-Thanks for visiting — open **RetailExecutiveDashboard** above, or ping me on LinkedIn.
+LinkedIn: [linkedin.com/in/nishant-tyagi-dev](https://www.linkedin.com/in/nishant-tyagi-dev/)
